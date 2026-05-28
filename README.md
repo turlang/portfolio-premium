@@ -1,29 +1,36 @@
-# Portfólio Evandro Ricardo - Estilo Mestre Orc
+# Portfólio Orc Style - Evandro Ricardo
 
-Versão mais escura, compacta e com estética inspirada no projeto Mestre Orc.
+Portfólio profissional com estética dark inspirada no projeto Mestre Orc, focado em apresentação de serviços, projetos e conversão de clientes.
 
-## Como usar
-Coloque todos os arquivos na raiz do repositório:
+## Arquivos
 
-- `index.html`
-- `style.css`
-- `script.js`
-- `thumb-mestre-orc.png`
-- `thumb-controle-financeiro.png`
-- `thumb-hamburgueria.png`
-- `thumb-portfolio-dev.png`
-
-As imagens já estão chamadas direto pela raiz, por exemplo:
-
-```html
-<img src="thumb-mestre-orc.png" alt="Prévia visual do projeto Mestre Orc" />
+```text
+index.html
+style.css
+script.js
+README.md
+thumb-mestre-orc.png
+thumb-controle-financeiro.png
+thumb-hamburgueria.png
+thumb-portfolio-dev.png
 ```
 
-## O que mudou
+## Ajustes desta versão
 
-- Visual escuro e sofisticado.
-- Menos rolagem vertical.
-- Textos mais curtos.
-- Projetos em grid compacto.
-- Hero com destaque forte para o Mestre Orc.
-- CTAs diretos para WhatsApp.
+- Textos com quebra mais inteligente usando `text-wrap: balance` e `text-wrap: pretty`.
+- Parágrafos alinhados à esquerda para evitar espaços ruins em telas pequenas.
+- Largura de leitura controlada com `ch`, melhorando organização visual.
+- Hero, cards, serviços e seção sobre ajustados para desktop, notebook, tablet e celular.
+- Layout mais compacto e com menor necessidade de rolagem.
+
+## Como usar
+
+Copie todos os arquivos para a raiz do seu projeto e mantenha os nomes das thumbs exatamente como indicados acima.
+
+## Commit sugerido
+
+```bash
+git add .
+git commit -m "fix(ui): melhora alinhamento e responsividade dos textos"
+git push origin main
+```
